@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="website.css">
+		<title>Home</title>
+		<style>
+			.form{
+				background-color:#E5E4E2;
+				width:50%;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="name"><center><p id="header" margin-top="0%"><b>Riverdale university</b></p><center></div>
+	<img src="img.jpg" height="300px" width="100%">
+	<center>
+	<div class="form">
+<center><h1>Application</h1></center>
+<form>
+<label for="title"><b>Title:</b></label>
+<select name="title" id="title">
+	<option value="Mr">Mr</option>
+	<option value="Mrs">Mrs</option>
+	<option value="Miss">Miss</option>
+	<option value="Ms">Ms</option>
+	<option value="Doctor">Doctor</option>
+	<option value="Lord">Lord</option>
+</select>
+<label for="firstname"><b>firstname:</b></label>
+<input type="text" name="firstname" placeholder="enter your firstname" style="background-color:#FFB6C1"><br><br>
+<label for="lastname"><b>lastname:</b></label><br>
+<input type="text" name="lastname" placeholder="enter your lastname" style="background-color:#90EE90"><br><br>
+
+<label for="Gender"><b>Gender</b></label><br>
+<input type="radio" name="Gender" value="male">
+<label for="male" ><b>male</b></label>
+<input type="radio" name="Gender" value="female">
+<label for="female"><b>female</b></label>
+<input type="radio" name="Gender" value="others">
+<label for="others"><b>others</b></label><br>
+<br>
+<label><b>DOB:</b></label><br>
+<input type="datetime-local" style="background-color: #FEE12B"><br>
+<br>
+<label for="percentage"><b>SSLC percentage(0-100)<b></label> &nbsp;&nbsp;&nbsp;&nbsp; <label for="gpa"><b>SSLC GPA (0-10)<b></label><br>
+<input type="number" id="percentage" name="percentage" min="0" max="100" style="background-color:#3DB489" step="0.01">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="number" id="gpa" name="gpa" min="0" max="10" style="background-color:#00A572" step="0.01"><br>
+<br>
+
+<label for="percentage"><b>12th percentage(0-100)<b></label>&nbsp;&nbsp;&nbsp;&nbsp;<label for="gpa"><b>12th GPA (0-10)<b></label><br>
+<input type="number" id="percentage" name="percentage" min="0" max="100" style="background-color:#59788E" step="0.01">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="number" id="gpa" name="gpa" min="0" max="10" style="background-color:#59788E"><br>
+<br>
+<label style="background-color:#F62681"><b>Course preference:</b></label><br>
+<input type="radio" name="Course" value="Btech">
+<label for="Btech"><b>Engineering</b></label>
+<input type="radio" name="Course" value="BBA">
+<label for="BBA"><b>UG programmes</b></label><br>
+<br>
+
+<input type="submit" style="background-color:#FDA172">
+<input type="reset" style="background-color:#FDA172">
+</form>
+<div>
+</center>
+
+	</body>
+</html>

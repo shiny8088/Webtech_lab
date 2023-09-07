@@ -1,0 +1,56 @@
+body{
+	background-repeat:no-repeat;
+	background-color:grey;
+}
+h5{
+	font-family:Lucida Handwriting;
+	color:white;
+	text-align:center;
+}
+#texts{
+	font-size:72px;
+	color:white;
+}
+.name{
+	font-size:50px;
+	background-color:grey;
+}
+
+#header{
+	margin-bottom:0px;
+	margin-top:0px;
+	color:black;
+	font-family:century;
+	font-size:50px;
+}
+.logo{
+	width:50px;
+	height:50px;
+	float:left;
+	padding-left:5%;
+	padding-top:2%;
+}
+.btn{
+	background-color:grey;
+	color:white;
+	text-align:center;
+	 height:5em;
+	 width:10em;
+	padding:15px 32px
+	 border-radius:35px;
+}
+.ho{
+				 position: absolute;
+				top: 25%;
+				left:7%;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				background-color: #555;
+				color: green;
+				font-size: 16px;
+				padding: 12px 24px;
+				border: none;
+				cursor: pointer;
+				border-radius: 5px;
+			}
+
